@@ -1,0 +1,214 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\classes ...
+[info] done compiling
+[info] TestSQL:
+[info] TDA DB
+[info] TestSQL *** ABORTED ***
+[info]   java.lang.NoClassDefFoundError: CreateTable$
+[info]   at TestSQL.testFun$proxy1$1(TestSQL.scala:14)
+[info]   at TestSQL.fun$proxy1$1$$anonfun$1(TestSQL.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:485)
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   ...
+[info]   Cause: java.lang.ClassNotFoundException: CreateTable$
+[info]   at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[info]   at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:103)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[info]   at TestSQL.testFun$proxy1$1(TestSQL.scala:14)
+[info]   at TestSQL.fun$proxy1$1$$anonfun$1(TestSQL.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   ...
+[info] TestDatabase:
+[info] create
+[info] TestDatabase *** ABORTED ***
+[info]   java.lang.NoClassDefFoundError: Database$
+[info]   at TestDatabase.testFun$proxy1$1(TestDatabase.scala:15)
+[info]   at TestDatabase.fun$proxy1$1$$anonfun$1(TestDatabase.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:485)
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   ...
+[info]   Cause: java.lang.ClassNotFoundException: Database$
+[info]   at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[info]   at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:103)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[info] TestFilter:
+[info] implicit
+[info] TestFilter *** ABORTED ***
+[info]   java.lang.NoClassDefFoundError: Field$
+[info]   at TestFilter.testFun$proxy1$1(TestFilter.scala:15)
+[info]   at TestFilter.fun$proxy1$1$$anonfun$1(TestFilter.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:485)
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   ...
+[info]   Cause: java.lang.ClassNotFoundException: Field$
+[info]   at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[info]   at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:103)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[info]   at TestFilter.testFun$proxy1$1(TestFilter.scala:15)
+[info]   at TestFilter.fun$proxy1$1$$anonfun$1(TestFilter.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   ...
+[info]   at TestDatabase.testFun$proxy1$1(TestDatabase.scala:15)
+[info]   at TestDatabase.fun$proxy1$1$$anonfun$1(TestDatabase.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   ...
+[info] TestTable:
+[info] apply
+[info] TestTable *** ABORTED ***
+[info]   java.lang.NoClassDefFoundError: Table$
+[info]   at TestTable.testFun$proxy1$1(TestTable.scala:14)
+[info]   at TestTable.fun$proxy1$1$$anonfun$1(TestTable.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:485)
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   ...
+[info]   Cause: java.lang.ClassNotFoundException: Table$
+[info]   at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[info]   at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:103)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[info]   at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[info]   at TestTable.testFun$proxy1$1(TestTable.scala:14)
+[info]   at TestTable.fun$proxy1$1$$anonfun$1(TestTable.scala:13)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   ...
+[error] Test suite TestSQL failed with java.lang.NoClassDefFoundError: CreateTable$.
+[error] This may be due to the ClassLoaderLayeringStrategy (ScalaLibrary) used by your task.
+[error] To improve performance and reduce memory, sbt attempts to cache the class loaders used to load the project dependencies.
+[error] The project class files are loaded in a separate class loader that is created for each test run.
+[error] The test class loader accesses the project dependency classes using the cached project dependency classloader.
+[error] With this approach, class loading may fail under the following conditions:
+[error] 
+[error]  * Dependencies use reflection to access classes in your project's classpath.
+[error]    Java serialization/deserialization may cause this.
+[error]  * An open package is accessed across layers. If the project's classes access or extend
+[error]    jvm package private classes defined in a project dependency, it may cause an IllegalAccessError
+[error]    because the jvm enforces package private at the classloader level.
+[error] 
+[error] These issues, along with others that were not enumerated above, may be resolved by changing the class loader layering strategy.
+[error] The Flat and ScalaLibrary strategies bundle the full project classpath in the same class loader.
+[error] To use one of these strategies, set the  ClassLoaderLayeringStrategy key
+[error] in your configuration, for example:
+[error] 
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.ScalaLibrary
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.Flat
+[error] 
+[error] See ClassLoaderLayeringStrategy.scala for the full list of options.
+[error] Test suite TestDatabase failed with java.lang.NoClassDefFoundError: Database$.
+[error] This may be due to the ClassLoaderLayeringStrategy (ScalaLibrary) used by your task.
+[error] To improve performance and reduce memory, sbt attempts to cache the class loaders used to load the project dependencies.
+[error] The project class files are loaded in a separate class loader that is created for each test run.
+[error] The test class loader accesses the project dependency classes using the cached project dependency classloader.
+[error] With this approach, class loading may fail under the following conditions:
+[error] 
+[error]  * Dependencies use reflection to access classes in your project's classpath.
+[error]    Java serialization/deserialization may cause this.
+[error]  * An open package is accessed across layers. If the project's classes access or extend
+[error]    jvm package private classes defined in a project dependency, it may cause an IllegalAccessError
+[error]    because the jvm enforces package private at the classloader level.
+[error] 
+[error] These issues, along with others that were not enumerated above, may be resolved by changing the class loader layering strategy.
+[error] The Flat and ScalaLibrary strategies bundle the full project classpath in the same class loader.
+[error] To use one of these strategies, set the  ClassLoaderLayeringStrategy key
+[error] in your configuration, for example:
+[error] 
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.ScalaLibrary
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.Flat
+[error] 
+[error] See ClassLoaderLayeringStrategy.scala for the full list of options.
+[error] Test suite TestFilter failed with java.lang.NoClassDefFoundError: Field$.
+[error] This may be due to the ClassLoaderLayeringStrategy (ScalaLibrary) used by your task.
+[error] To improve performance and reduce memory, sbt attempts to cache the class loaders used to load the project dependencies.
+[error] The project class files are loaded in a separate class loader that is created for each test run.
+[error] The test class loader accesses the project dependency classes using the cached project dependency classloader.
+[error] With this approach, class loading may fail under the following conditions:
+[error] 
+[error]  * Dependencies use reflection to access classes in your project's classpath.
+[error]    Java serialization/deserialization may cause this.
+[error]  * An open package is accessed across layers. If the project's classes access or extend
+[error]    jvm package private classes defined in a project dependency, it may cause an IllegalAccessError
+[error]    because the jvm enforces package private at the classloader level.
+[error] 
+[error] These issues, along with others that were not enumerated above, may be resolved by changing the class loader layering strategy.
+[error] The Flat and ScalaLibrary strategies bundle the full project classpath in the same class loader.
+[error] To use one of these strategies, set the  ClassLoaderLayeringStrategy key
+[error] in your configuration, for example:
+[error] 
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.ScalaLibrary
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.Flat
+[error] 
+[error] See ClassLoaderLayeringStrategy.scala for the full list of options.
+[error] Test suite TestTable failed with java.lang.NoClassDefFoundError: Table$.
+[error] This may be due to the ClassLoaderLayeringStrategy (ScalaLibrary) used by your task.
+[error] To improve performance and reduce memory, sbt attempts to cache the class loaders used to load the project dependencies.
+[error] The project class files are loaded in a separate class loader that is created for each test run.
+[error] The test class loader accesses the project dependency classes using the cached project dependency classloader.
+[error] With this approach, class loading may fail under the following conditions:
+[error] 
+[error]  * Dependencies use reflection to access classes in your project's classpath.
+[error]    Java serialization/deserialization may cause this.
+[error]  * An open package is accessed across layers. If the project's classes access or extend
+[error]    jvm package private classes defined in a project dependency, it may cause an IllegalAccessError
+[error]    because the jvm enforces package private at the classloader level.
+[error] 
+[error] These issues, along with others that were not enumerated above, may be resolved by changing the class loader layering strategy.
+[error] The Flat and ScalaLibrary strategies bundle the full project classpath in the same class loader.
+[error] To use one of these strategies, set the  ClassLoaderLayeringStrategy key
+[error] in your configuration, for example:
+[error] 
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.ScalaLibrary
+[error] set root / Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.Flat
+[error] 
+[error] See ClassLoaderLayeringStrategy.scala for the full list of options.
+[info] Run completed in 3 seconds, 376 milliseconds.
+[info] Total number of tests run: 0
+[info] Suites: completed 0, aborted 4
+[info] Tests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0
+[info] *** 4 SUITES ABORTED ***
+[error] Error during tests:
+[error] 	TestSQL
+[error] 	TestDatabase
+[error] 	TestFilter
+[error] 	TestTable
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 26 s, completed 18 Jun 2024, 20:53:40
+[debug] > Exec(idea-shell, None, None)

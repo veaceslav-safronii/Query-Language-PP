@@ -1,0 +1,91 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\classes ...
+[info] done compiling
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\test-classes ...
+[info] done compiling
+[info] TestTable:
+[info] apply
+[info] - 1
+[info] toString
+[info] - 1
+[info] filter
+[info] - 1
+[info] delete
+[info] - 1
+[info] insert
+[info] - 1
+[info] sort
+[info] - 1
+[info] select
+[info] - 1
+[info] update
+[info] - 1
+[info] TestFilter:
+[info] implicit
+[info] - 1
+[info] syntactic sugars
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] eval
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 5
+[info] - 6
+[info] - 7
+[info] - 8
+[info] TestDatabase:
+[info] create
+[info] - 1
+[info] select
+[info] - 1
+[info] drop
+[info] - 1
+[info] indexing
+[info] - 1
+[info] join
+[info] - 1
+[info] TestSQL:
+[info] TDA DB
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] TDA Table
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 5
+[info] - 6
+[info] implicits
+[info] - 1
+[info] - 2
+[info] prettier language
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 5
+[info] - 6
+[info] - 7
+[info] - 8
+[info] - 9
+[info] killJackSparrow
+[info] - 1
+[info] insertLinesThenSort
+[info] - 1
+[info] youngAdultHobbiesJ
+[info] - 1
+[info] Run completed in 849 milliseconds.
+[info] Total number of tests run: 50
+[info] Suites: completed 4, aborted 0
+[info] Tests: succeeded 50, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 31 s, completed 20 May 2024, 18:34:42
+[debug] > Exec(idea-shell, None, None)

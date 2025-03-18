@@ -1,0 +1,154 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\classes ...
+[info] done compiling
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\test-classes ...
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestDatabase.scala:91:28 
+[error] 91 |      val t1: Table = Utils.db1(0)
+[error]    |                      ^^^^^^^^^
+[error]    |                      value db1 in object Utils does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestDatabase.scala:92:28 
+[error] 92 |      val t2: Table = Utils.db1(1)
+[error]    |                      ^^^^^^^^^
+[error]    |                      value db1 in object Utils does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestDatabase.scala:93:28 
+[error] 93 |      val t3: Table = Utils.db1(2)
+[error]    |                      ^^^^^^^^^
+[error]    |                      value db1 in object Utils does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestDatabase.scala:99:44 
+[error] 99 |      val tables = (1 to 10).map(i => Utils.db2(i - 1))
+[error]    |                                      ^^^^^^^^^
+[error]    |                      value db2 in object Utils does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: D:\Universitate\PP\skel2\src\test\scala\TestDatabase.scala:100:24 
+[error] 100 |      assert(tables.map(_.name) == List("1", "2", "3", "4", "5", "6", "7", "8", "9", "10"))
+[error]     |                        ^
+[error]     |Found:    (_$5 : Nothing)
+[error]     |Required: ?{ name: ? }
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than ?{ name: B }
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] Could not find TASTY file All.tasty under D:\Universitate\PP\skel2\target\scala-3.3.1\classes
+[error] -- [E006] Not Found Error: D:\Universitate\PP\skel2\src\test\scala\TestFilter.scala:122:28 
+[error] 122 |      val all: FilterCond = All(List(
+[error]     |                            ^^^
+[error]     |                            Not found: All
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] error while loading CreateTable,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\CreateTable.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:14:30 
+[error] 14 |      val create: PP_SQL_DB = CreateTable(Utils.db1, "Rampapapam")
+[error]    |                              ^^^^^^^^^^^
+[error]    |                             object CreateTable does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading DropTable,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\DropTable.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:20:28 
+[error] 20 |      val drop: PP_SQL_DB = DropTable(Utils.db2, "7")
+[error]    |                            ^^^^^^^^^
+[error]    |                            object DropTable does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading SelectTables,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\SelectTables.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:26:31 
+[error] 26 |      val selectT: PP_SQL_DB = SelectTables(Utils.db2, List("1", "2", "3"))
+[error]    |                               ^^^^^^^^^^^^
+[error]    |                            object SelectTables does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading JoinTables,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\JoinTables.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:56:28 
+[error] 56 |      val join: PP_SQL_DB = JoinTables(db, "Sweet Brands", "name", "Sweets Prices", "name1")
+[error]    |                            ^^^^^^^^^^
+[error]    |                            object JoinTables does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading InsertRow,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\InsertRow.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:77:36 
+[error] 77 |      val insertRow: PP_SQL_Table = InsertRow(Utils.people,
+[error]    |                                    ^^^^^^^^^
+[error]    |                               object InsertRow does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading UpdateRow,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\UpdateRow.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:86:36 
+[error] 86 |      val updateRow: PP_SQL_Table = UpdateRow(Utils.people, Field("name", _ == "Jill"), row)
+[error]    |                                    ^^^^^^^^^
+[error]    |                               object UpdateRow does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading DeleteRow,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\DeleteRow.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:93:36 
+[error] 93 |      val deleteRow: PP_SQL_Table = DeleteRow(Utils.hobbies, row)
+[error]    |                                    ^^^^^^^^^
+[error]    |                               object DeleteRow does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] error while loading SortTable,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\SortTable.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:99:36 
+[error] 99 |      val sortTable: PP_SQL_Table = SortTable(Utils.people, "name")
+[error]    |                                    ^^^^^^^^^
+[error]    |                               object SortTable does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:105:26 
+[error] 105 |      val selectColumns = SelectTables(Utils.db1, List("People", "Hobbies"))
+[error]     |                          ^^^^^^^^^^^^
+[error]     |                          object SelectTables does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] error while loading FilterRows,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\FilterRows.class
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:112:38 
+[error] 112 |      val filterTable: PP_SQL_Table = FilterRows(Utils.people, filter)
+[error]     |                                      ^^^^^^^^^^
+[error]     |                            object FilterRows does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:147:16 
+[error] 147 |      assert(ok.get(0).toString == Utils.people.toString)
+[error]     |             ^^^^^^
+[error]     |             method get in class Option does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:175:26 
+[error] 175 |      val tab: Table = ok.get(0)
+[error]     |                       ^^^^^^
+[error]     |                   method get in class Option does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] error while loading Queries,
+[error] D:\Universitate\PP\skel2\target\scala-3.3.1\classes\Queries.class
+[error] -- [E008] Not Found Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:301:31 
+[error] 301 |      val res: Table = Queries.killJackSparrow(Utils.people).get
+[error]     |                       ^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |               value killJackSparrow is not a member of object Queries
+[error] -- [E008] Not Found Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:319:39 
+[error] 319 |      val res: Option[Table] = Queries.insertLinesThenSort(Utils.db1)
+[error]     |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |           value insertLinesThenSort is not a member of object Queries
+[error] -- [E008] Not Found Error: D:\Universitate\PP\skel2\src\test\scala\TestSQL.scala:333:39 
+[error] 333 |      val res: Option[Table] = Queries.youngAdultHobbiesJ(Utils.db1)
+[error]     |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |            value youngAdultHobbiesJ is not a member of object Queries
+[error] 32 errors found
+[error] (Test / compileIncremental) Compilation failed
+[error] Total time: 29 s, completed 28 Apr 2024, 15:52:24
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,287 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\classes ...
+[info] done compiling
+[info] compiling 5 Scala sources to D:\Universitate\PP\skel2\target\scala-3.3.1\test-classes ...
+[info] done compiling
+[info] TestTable:
+[info] apply
+[info] - 1
+[info] toString
+[info] - 1
+[info] filter
+[info] - 1
+[info] delete
+[info] - 1
+[info] insert
+[info] - 1
+[info] sort
+[info] TestDatabase:
+[info] create
+[info] - 1
+[info] select
+[info] - 1
+[info] - 1
+[info] drop
+[info] - 1
+[info] indexing
+[info] select
+[info] - 1
+[info] join
+[info] - 1 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at Database.join(Database.scala:26)
+[info]   at TestDatabase.testFun$proxy5$1(TestDatabase.scala:142)
+[info]   at TestDatabase.fun$proxy5$1$$anonfun$1(TestDatabase.scala:108)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 1
+[info] update
+[info] - 1
+[info] TestFilter:
+[info] implicit
+[info] - 1
+[info] syntactic sugars
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] eval
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 5
+[info] - 6
+[info] - 7
+[info] - 8
+[info] TestSQL:
+[info] TDA DB
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at JoinTables.eval(PP_SQL.scala:24)
+[info]   at TestSQL.testFun$proxy4$1(TestSQL.scala:70)
+[info]   at TestSQL.fun$proxy1$1$$anonfun$4(TestSQL.scala:31)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] TDA Table
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 5
+[info] - 6
+[info] implicits
+[info] - 1 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Select(PP_SQL.scala:79)
+[info]   at TestSQL.testFun$proxy11$1(TestSQL.scala:121)
+[info]   at TestSQL.fun$proxy3$1$$anonfun$1(TestSQL.scala:120)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 2 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_DB_Select(PP_SQL.scala:21)
+[info]   at TestSQL.testFun$proxy12$1(TestSQL.scala:127)
+[info]   at TestSQL.fun$proxy3$1$$anonfun$2(TestSQL.scala:126)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] prettier language
+[info] - 1 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_DB_Create_Drop(PP_SQL.scala:15)
+[info]   at TestSQL.testFun$proxy13$1(TestSQL.scala:136)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$1(TestSQL.scala:135)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 2 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_DB_Select(PP_SQL.scala:21)
+[info]   at TestSQL.testFun$proxy14$1(TestSQL.scala:146)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$2(TestSQL.scala:145)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 3 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_DB_Join(PP_SQL.scala:27)
+[info]   at TestSQL.testFun$proxy15$1(TestSQL.scala:174)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$3(TestSQL.scala:150)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 4 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Insert(PP_SQL.scala:41)
+[info]   at TestSQL.testFun$proxy16$1(TestSQL.scala:198)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$4(TestSQL.scala:192)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 5 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Sort(PP_SQL.scala:57)
+[info]   at TestSQL.testFun$proxy17$1(TestSQL.scala:215)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$5(TestSQL.scala:214)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 6 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Delete(PP_SQL.scala:67)
+[info]   at TestSQL.testFun$proxy18$1(TestSQL.scala:232)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$6(TestSQL.scala:230)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 7 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Update(PP_SQL.scala:51)
+[info]   at TestSQL.testFun$proxy19$1(TestSQL.scala:250)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$7(TestSQL.scala:246)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 8 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Select(PP_SQL.scala:79)
+[info]   at TestSQL.testFun$proxy20$1(TestSQL.scala:267)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$8(TestSQL.scala:266)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] - 9 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at PP_SQL$package$.PP_SQL_Table_Filter(PP_SQL.scala:73)
+[info]   at TestSQL.testFun$proxy21$1(TestSQL.scala:283)
+[info]   at TestSQL.fun$proxy4$1$$anonfun$9(TestSQL.scala:282)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] killJackSparrow
+[info] - 1 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at Queries$.killJackSparrow(Queries.scala:3)
+[info]   at TestSQL.testFun$proxy22$1(TestSQL.scala:301)
+[info]   at TestSQL.fun$proxy5$1$$anonfun$1(TestSQL.scala:300)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] insertLinesThenSort
+[info] - 1 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at Queries$.insertLinesThenSort(Queries.scala:5)
+[info]   at TestSQL.testFun$proxy23$1(TestSQL.scala:319)
+[info]   at TestSQL.fun$proxy6$1$$anonfun$1(TestSQL.scala:318)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] youngAdultHobbiesJ
+[info] - 1 *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+[info]   at Queries$.youngAdultHobbiesJ(Queries.scala:7)
+[info]   at TestSQL.testFun$proxy24$1(TestSQL.scala:333)
+[info]   at TestSQL.fun$proxy7$1$$anonfun$1(TestSQL.scala:332)
+[info]   at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:21)
+[info]   ...
+[info] Run completed in 2 seconds, 138 milliseconds.
+[info] Total number of tests run: 50
+[info] Suites: completed 4, aborted 0
+[info] Tests: succeeded 34, failed 16, canceled 0, ignored 0, pending 0
+[info] *** 16 TESTS FAILED ***
+[error] Failed tests:
+[error] 	TestSQL
+[error] 	TestDatabase
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 18 s, completed 4 May 2024, 13:47:28
+[debug] > Exec(idea-shell, None, None)
